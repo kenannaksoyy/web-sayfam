@@ -9,7 +9,7 @@ const js=[
         name:"Redux İle Bored",
         img:require("../images/boredDog.jpg"),
         gitHubLink:"https://github.com/kenannaksoyy/FSWeb-S10G3-Async-Redux",
-        text:` Projemi useState, useEffect, Reducer,combine Reducer, Redux, Provider-CreateStore ve Axios kullanarak gerçekleştirdim`
+        text:` Projemi useState, useEffect, Reducer,combine Reducer, Redux, Provider CreateStore ve Axios kullanarak gerçekleştirdim`
     }
 ]
 
