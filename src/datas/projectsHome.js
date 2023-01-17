@@ -1,7 +1,7 @@
 const projectsHomeItems=
 [
     {
-        name:"Pizza Şipariş",
+        name:"Pizza Sipariş",
         img:require("../images/pizza.jpg"),
         gitHubLink:"https://github.com/kenannaksoyy/FSWeb-S10G3-Async-Redux"
     },
