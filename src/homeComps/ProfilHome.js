@@ -19,7 +19,7 @@ export default function ProfilHome(){
                 <p>
                     Mezuniyetimden sonra Web teknolijilerinde ilerlemek istediğimi karar verdim.
                     JavaScript, React ve Redux teknolijilerini öğrenerek Front-End için kendimi hazırladım.
-                    Tasarım kısmında kendimi geliştirmeye çalıyorum.
+                    Tasarım kısmında kendimi geliştirmeye çalışıyorum.
                 </p>                   
             </div>
         </div>
