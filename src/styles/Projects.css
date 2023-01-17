@@ -1,0 +1,33 @@
+#projects-container{
+    margin: 0 auto;
+    width: 80vw;
+    font-family: "Times New Roman", Times, serif;
+    background-color:  #F3F4ED;
+    text-align: center;
+}
+#lang-projects-container{
+    background-color: #A3D8F4;
+    margin: 0 auto;
+    width: 50vw;
+
+}
+.lang-projects-cont{
+    display: inline-flex;
+    align-content: stretch;
+    
+}
+.lang-project-item-cont{
+    padding: 20px;
+    width: 30vw;
+    margin: 0 auto;
+}
+.p-img-item{
+    max-width: 200px;
+}
+
+@media (max-width: 1024px ){
+    .p-img-item{
+        max-width: 150px;
+    }
+    
+}

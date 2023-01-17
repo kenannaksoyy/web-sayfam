@@ -1,0 +1,41 @@
+#header-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+    align-items: center;
+    font-style: oblique;
+}
+#header-name-surname{
+    margin: 20px;
+}
+.header-link{
+    background-color: #F1D3B3;
+    color: black;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5%;
+    border: 2px solid olive;
+    font-style: initial;
+
+}
+#active{
+    background-color: #CF0A0A;
+    color: #EEEEEE;
+    border: 5px solid #000000;
+}
+@media (max-width: 1024px ){
+    #header-cont{
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin-bottom: 2%;
+    }
+    .header-link{
+        display: block; 
+        text-align: center;
+        margin: auto auto;
+    }
+    
+}

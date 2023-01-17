@@ -1,0 +1,23 @@
+#skills-container{
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80vw;
+    font-style: oblique;
+    background-color:  #CEEDC7;
+    text-align: center;
+}
+.skills-cont-items{
+    margin: 0 auto;
+    width: 40vw;
+    background-color: #E1E5EA;
+    color: #DA7F8F;
+    padding: 10px;
+    justify-content: space-between;
+   
+}
+@media (max-width: 1024px ){
+    .s-img{
+        max-width: 150px;
+    }
+
+}
