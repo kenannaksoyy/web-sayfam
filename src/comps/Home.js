@@ -80,7 +80,7 @@ export default function Home(){
                         </div>
                         <div id="mail-body-cont">
                             <strong>Mesajınızı Giriniz</strong><br/>
-                            <input type="textarea" name="body" size="50" 
+                            <textarea type="textarea" name="body" 
                             value={connectForm.body} onChange={handleChange} 
                             placeholder="Lütfen Mesajınızı Giriniz"/>
                         </div>
