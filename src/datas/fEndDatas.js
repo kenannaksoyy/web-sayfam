@@ -3,7 +3,7 @@ const fEndDatas=
     {
         name:"React",
         img:require("../images/react.png"),
-        text:" React bileşeni, HTML ile JavaScript’i birleştirmenizi sağlayan olan JSX kullandığından tercih etmekteyim."
+        text:" React bileşeni, HTML ile JavaScript’i birleştirmenizi sağlayan JSX kullandığından tercih etmekteyim."
     },
     {
         name:"Redux",
