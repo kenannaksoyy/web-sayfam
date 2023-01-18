@@ -26,7 +26,7 @@ export default function ProjectsHome(){
         <Link to="/projects" id="project-home-link" 
         style={{ textDecoration: 'none',color:"blue" }} 
         onClick={()=>{dispatch(uptade(1))}}>
-            Projelerimin Detaylar İçin Lütfen Tıklayın
+            Projelerimin Detayları İçin Lütfen Tıklayın
         </Link>
     </div>
     );
