@@ -8,7 +8,7 @@ const fEndDatas=
     {
         name:"Redux",
         img:require("../images/redux.png"),
-        text:" Veriyi tek bir noktadan yönetim olağanığı sağladığı için kullanmaktayım"
+        text:" Veriyi tek bir noktadan yönetim olanağı sağladığı için kullanmaktayım."
     },
     {
         name:"JavaScript",
