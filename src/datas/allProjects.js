@@ -1,6 +1,6 @@
 const js=[
     {
-        name:"Pizza Şipariş",
+        name:"Pizza Sipariş",
         img:require("../images/pizza.jpg"),
         gitHubLink:"https://github.com/kenannaksoyy/FSWeb-S7-Challenge",
         text:` Projemi useState, useEffect, Yup Validation, Props ve Axios kullanarak gerçekleştirdim`
