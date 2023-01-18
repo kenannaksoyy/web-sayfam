@@ -16,7 +16,7 @@ export default function ProjectsHome(){
                             <img className="project-item-home-img"  src={item.img} alt="res"/><br/>
                             <strong>{item.name}</strong><br/>
                             <a href={item.gitHubLink} style={{ textDecoration: 'none',color:"blue" }}>
-                                {item.name} gitHub' da Görüntüleyiniz
+                                {item.name} projemi gitHub' da Görüntüleyiniz
                             </a>
                         </div>
                     )
