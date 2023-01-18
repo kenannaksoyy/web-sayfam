@@ -21,7 +21,7 @@ export default function SkillsHome(){
                 }
             </div>
             <Link to="/skills" id="skills-home-link" style={{ textDecoration: 'none',color:"blue" }} onClick={()=>{dispatch(uptade(2))}}>
-               Becerilerimin Detaylar İçin Lütfen Tıklayın
+               Becerilerimin Detayları İçin Lütfen Tıklayın
             </Link>
         </div>
     );
