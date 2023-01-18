@@ -17,8 +17,8 @@ export default function ProfilHome(){
                     bilgisayar ile görme,NYP ve Multithread ile simülasyon ve basit oyun projeleri hazırladım.
                 </p>
                 <p>
-                    Mezuniyetimden sonra Web teknolijilerinde ilerlemek istediğimi karar verdim.
-                    JavaScript, React ve Redux teknolijilerini öğrenerek Front-End için kendimi hazırladım.
+                    Mezuniyetimden sonra Web teknolojilerinde ilerlemek istediğimi karar verdim.
+                    JavaScript, React ve Redux teknolojilerini öğrenerek Front-End için kendimi hazırladım.
                     Tasarım kısmında kendimi geliştirmeye çalışıyorum.
                 </p>                   
             </div>
