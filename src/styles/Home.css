@@ -63,6 +63,12 @@ textarea{
     width: 150px;
     height: 150px;
 }
+#subject-mail{
+    width: 150px;
+}
+h2{
+padding-top: 5px;
+}
 
 
 @media (max-width: 1024px ){

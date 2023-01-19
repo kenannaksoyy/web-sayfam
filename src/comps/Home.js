@@ -67,22 +67,23 @@ export default function Home(){
              
             <div id="connect-cont">
                 <h2 style={{color:"#5C2E7E"}}>Bana Ulaşın</h2>
-                <div className='connect-error-show' style={{color:"red"}}>
-                    <p>{connectFormErrors.subject}</p>
-                    <p>{connectFormErrors.body}</p>
-                </div>
-                
+
                 <form method="get" action="mailto:kenannaksoyy@gmail.com">
                         <div id="mail-subject-cont">
                             <strong>Konu Giriniz</strong><br/>
                             <input type="text" name="subject" value={connectForm.subject} onChange={handleChange}
-                            placeholder="Lütfen Konu Giriniz" size="30" />
+                            style={{fontFamily:" Arial, Helvetica, sans-serif",fontSize:"12px"}}
+                            placeholder="Lütfen Konu Giriniz" id="subject-mail" />
                         </div>
                         <div id="mail-body-cont">
                             <strong>Mesajınızı Giriniz</strong><br/>
-                            <textarea type="textarea" name="body" 
+                            <textarea type="textarea" name="body" style={{fontFamily:" Arial, Helvetica, sans-serif",fontSize:"12px"}} 
                             value={connectForm.body} onChange={handleChange} 
                             placeholder="Lütfen Mesajınızı Giriniz"/>
+                        </div>
+                        <div className='connect-error-show' style={{color:"red"}}>
+                            <p>{connectFormErrors.subject}</p>
+                            <p>{connectFormErrors.body}</p>
                         </div>
                         <input type="submit" value={disable===false?"Maile Yönlendir":"Gerekli Bilgileri Doldurunuz"} disabled={disable} />
                 </form>

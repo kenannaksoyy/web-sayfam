@@ -9,7 +9,8 @@ export default function SkillItems(props){
         <div className="skills-cont-items">
             {
                 skillList.map((s,index) => (
-                <div className="s-item" style={{background:`${colors[index]}`,color:`black`,border:"5px solid #343A40"}} >
+                <div className="s-item" style={index%2===0 ? {background:`${colors[index]}`,color:`black`,border:"5px solid #550A46"}:
+                {background:`${colors[index]}`,color:`black`,border:"5px solid #FF5677"}}>
                     <h3 className="s-item-title">{s.name}</h3>
                     <img src={s.img} alt="res" className="s-img" style={{borderRadius:"50%",width:"200px"}}/>
                     <p><strong>{s.name}:</strong>{s.text}</p>
