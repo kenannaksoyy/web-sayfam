@@ -8,8 +8,8 @@ export default function HiHome(){
             <p>2022 yılında {personInfos.school} {personInfos.job} bölümünden mezun oldum.</p>
             <p>Şuan React ile Front-End projeleri geliştirmekteyim.</p>
             <nav id="github-linkedin">
-                <a href={personInfos.gitHub} style={{ textDecoration: 'none',color:"red" }}>Github </a>
-                <a href={personInfos.linkedin} style={{ textDecoration: 'none',color:"blue" }}>Linkedin</a>                      
+                <a href={personInfos.gitHub} style={{ textDecoration: 'none',color:"red" }} target="_blank" rel="noreferrer" >Github </a>
+                <a href={personInfos.linkedin} style={{ textDecoration: 'none',color:"blue" }} target="_blank" rel="noreferrer">Linkedin</a>                      
             </nav>
         </div>
         <div id="home-main-img-cont-a">
